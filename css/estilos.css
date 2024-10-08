@@ -1,4 +1,18 @@
-body { background-color: red;}
-.amarillo { background-color:yellow;}
+body { background-color: red;
+       background-image: url(../imagenes/conejofondo.jpg);
+       background-repeat:no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+   background-size: cover;}
+
+
+.amarillo { background-color:yellow;
+            padding: 50px;
+          margin: 40px;}
 .verde { background-color:green;}
 h1 {font-size: 12px;}
+
+.logowha {position: fixed;
+          bottom: 20px;
+          right: 10px;
+          width: 60px;     }
